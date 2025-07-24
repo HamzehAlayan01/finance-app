@@ -1,0 +1,36 @@
+aside {
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    background-color: var(--color-grey-900);
+    height:900px;
+    color:white;
+    padding:24px;
+    border-radius:0 10px 10px 0;
+    gap:24px;
+}
+
+nav{
+    margin-top:2.5rem;
+    display:flex;
+    flex-direction: column;
+    gap: 24px;}
+a{
+    text-decoration: none;
+    color: var(--color-grey-300);
+    font-size: 1.2rem;
+}
+a.hover{
+    color: white;
+}
+
+
+.minimizeButton{
+    background-color:transparent;
+    border: none;
+    color: var(--color-grey-300);
+    font-size:1rem;
+    margin-top:2.5rem;
+    cursor: pointer;
+    display:flex;
+}

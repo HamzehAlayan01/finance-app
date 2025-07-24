@@ -1,0 +1,8 @@
+.homePageAll{
+    display: flex;
+}
+.homePageContent{
+    padding:40px;
+    width:80%;
+    background-color: var(--color-beige-100);
+}

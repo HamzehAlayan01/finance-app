@@ -1,0 +1,17 @@
+.balanceWidget{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    width:30%;
+}
+.title{
+    color:var(--color-grey-300);
+    font-size: 1.2rem;
+}
+.amount{
+    color: var(--color-grey-900);
+    font-size:2rem;
+}
